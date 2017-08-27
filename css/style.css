@@ -114,8 +114,8 @@ a:hover, a:active, a:focus{color:#000000;outline:none;}
 #buy{height:250vh;}
 #contact{margin-top:20vh;}
 }
-@media (min-width:200px) and (max-width:568px){#home{height:80vh;margin-top:50vh;}
-#about{height:80vh;margin-top:50vh;}
+@media (min-width:200px) and (max-width:568px){#home{height:80vh;margin-top:80vh;}
+#about{height:100vh;margin-top:50vh;}
 #buy{height:280vh;margin-top:50vh;}
 }
 @media (max-width:980px){h1{font-size:30px;line-height:normal;}
