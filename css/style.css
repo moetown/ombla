@@ -114,10 +114,12 @@ a:hover, a:active, a:focus{color:#000000;outline:none;}
 #buy{height:250vh;}
 #contact{margin-top:20vh;}
 }
-@media (min-width:200px) and (max-width:568px){#home{height:80vh;margin-top:90vh;margin-bottom:50vh;}
+@media (min-width:357px) and (max-width:568px){
+    #home{height:80vh;margin-top:70vh;margin-bottom:50vh;}
+    #home .col-md-offset-1{margin-left:25vw;} .col-md-3 img, .wow h4{margin-left:25vw;} .navbar{padding-right: 10vw;width:100%;}.row h1, .row h3, #about{margin-left: 10vw;}
 #about{height:120vh;margin-top:80vh; margin-bottom:50vh;}
-#buy{height:280vh;margin-top:50vh;margin-bottom:50vh;}
-    #contact{margin-top:20vh;} section{margin-left:20%;} .col-md-4{margin-top:20vh;}
+#buy{height:280vh;margin-top:50vh;margin-bottom:80vh;}
+    #contact{margin-top:50vh;} .col-md-4{margin-top:20vh;} #contact .section-title{margin-top:10vh;}
 }
 @media (max-width:980px){h1{font-size:30px;line-height:normal;}
 h2{font-size:30px;}
@@ -129,4 +131,7 @@ h2{font-size:30px;}
 .about-thumb .social-icon{margin-bottom:15px;}
 }
 @media (max-width:357px){h1{font-size:28px;}
-#about .col-md-4 a{width:85px;height:85px;}
+    #about .col-md-4 a{width:85px;height:85px;} #home{height:100vh;margin-top:90vh;}
+#about{height:120vh;margin-top:80vh; margin-bottom:50vh;}
+#buy{height:280vh;margin-top:50vh;margin-bottom:50vh;}
+ #home{margin-left:20%;} .col-md-12 h2{margin-top:30vh;} #contact .section-title{margin-top:50vh;}.col-sm-12{margin-top:30vh; margin-bottom:10vh;} #contact{height:150vh;}
