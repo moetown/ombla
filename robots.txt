@@ -1,5 +1,4 @@
 User-agent:
 Disallow: /images/
-Disallow: /index.html#contacts
 Disallow: /design.html
 Sitemap: http://www.ombla.design/sitemap.xml
