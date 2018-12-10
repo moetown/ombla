@@ -23,9 +23,9 @@ a:hover, a:active, a:focus{color:#000000;outline:none;}
 #contact{text-align:center;height:100vh;}
 .zoom img{-webkit-transition:all 200ms ease-in;-webkit-transform:scale(1);-ms-transition:all 200ms ease-in;-ms-transform:scale(1);-moz-transition:all 200ms ease-in;-moz-transform:scale(1);transition:all 200ms ease-in;transform:scale(1);}
 .zoom img:hover{z-index:2;-webkit-transition:all 400ms ease-in;-webkit-transform:scale(1.2);-ms-transition:all 400ms ease-in;-ms-transform:scale(1.2);-moz-transition:all 400ms ease-in;-moz-transform:scale(1.2);transition:all 400ms ease-in;transform:scale(1.2);}
-.preloader{position:fixed;top:0;left:0;width:100%;height:100%;z-index:99999;display:flex;flex-flow:row nowrap;justify-content:center;align-items:center;background:none repeat scroll 0 0 #ffffff;}
+.preloader{position:fixed;top:0;left:-3%;width:100%;height:100%;z-index:99999;display:flex;flex-flow:row nowrap;justify-content:center;align-items:center;background:none repeat scroll 0 0 #ffffff;}
 .spinner{border:1px solid transparent;border-radius:5px;position:relative;}
-.spinner:before{content:'';box-sizing:border-box;position:absolute;top:50%;left:50%;width:65px;height:65px;margin-top:-10px;margin-left:-10px;border-radius:50%;border:1px solid #000000;border-top-color:#f9f9f9;animation:spinner .9s linear infinite;}
+.spinner:before{content:'';box-sizing:border-box;position:absolute;top:50%;left:-35%;width:65px;height:65px;margin-top:-10px;margin-left:0px;border-radius:50%;border:1px solid #000000;border-top-color:#f9f9f9;animation:spinner .9s linear infinite;}
 @-webkit-@keyframes spinner{to{transform:rotate(360deg);}
 }
 @keyframes spinner{to{transform:rotate(360deg);}
@@ -46,7 +46,9 @@ a:hover, a:active, a:focus{color:#000000;outline:none;}
 .custom-navbar.top-nav-collapse{background:#ffffff;box-shadow:0 40px 100px rgba(0,0,0,.2);padding:10px 0;}
 }
 #home{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;height:100vh;position:relative;padding-top:62px;}
-#home img{width:150px;height:150px;}
+
+#imageadjust img {width:15em; height:auto;}
+
 .space{margin-top:100px;}
 .margins h4{margin-top:20px;transition:all .2s ease-in-out;margin-left:10px;}
 .margins h4:hover{transform:scale(1.05);color:darkgrey;}
@@ -68,7 +70,7 @@ a:hover, a:active, a:focus{color:#000000;outline:none;}
 #buy .work-item{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
 #buy .work-thumb:hover .work-overlay{opacity:0.9;}
 #buy .text-center{padding-top:62px;}
-#webdesign, #graphic, #prints, #gadgets{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;height:100vh;position:relative;padding-top:62px;}
+#webdesign, #graphic, #UX, #mobile {display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;height:100vh;position:relative;padding-top:62px;}
 .adjust{height:50vh;width:auto;}
 #contact .form-control{border-radius:0px;border-color:#f0f0f0;box-shadow:none;font-size:16px;margin-top:12px;margin-bottom:12px;-webkit-transition:all ease-in-out 0.4s;transition:all ease-in-out 0.4s;}
 #contact .form-control:focus{border-bottom:2px solid #999999;}
@@ -82,9 +84,9 @@ a:hover, a:active, a:focus{color:#000000;outline:none;}
 @media (min-width:990px) and (max-width:1024px){#home{height:100vh;margin-top:10vh;}
 }
 @media (min-width:767px) and (max-width:990px){#home{height:80vh;margin-top:10vh;margin-bottom:10vh;}
-.center img, .center h4{margin-left:25%;}
+.center img, .center h4{margin-left:0%;}
 #home .col-sm-6{width:25%;margin-left:none;}
-#home img{margin:0px;}
+
 #about{height:80vh;margin-bottom:10vh;}
 .adjust{height:20vh;}
 #buy{height:100vh;}
@@ -96,7 +98,7 @@ a:hover, a:active, a:focus{color:#000000;outline:none;}
 #home .col-sm-6{width:30%;height:auto;margin:0px;}
 .space{display:inline;height:auto;width:100%;}
 #home .img-responsive img{width:100%;float:left;padding-left:50%;}
-#home .wow{margin-left:20%;}
+#home .wow{margin-left:0%;}
 #home .col-md-8{margin-right:20%;}
 #home .col-md-8 h3{font-size:18px;}
 #home .col-md-3 img{width:100%;height:auto;}
@@ -105,21 +107,25 @@ a:hover, a:active, a:focus{color:#000000;outline:none;}
 #buy .col-md-4, #buy col-sm-6{width:25vw;}
 #home .container{margin-left:20%;}
 #home .img-circle{margin-right:50vw;}
-#about .container{margin-left:10%;}
+#about .container{margin-left:0%;}
 #buy .col-md-4, #buy .col-sm-6{margin-left:30%;}
 }
 @media (min-width:568px) and (max-width:665px){#home{height:120vh;margin-top:30vh;}
-#home img,.margins h4{margin-left:25%;}
+#home img,.margins h4{margin-left:0%;}
 #about{height:120vh;margin-top:20vh;}
 #buy{height:250vh;}
 #contact{margin-top:20vh;}
 }
 @media (min-width:357px) and (max-width:568px){
     #home{height:80vh;margin-top:70vh;margin-bottom:50vh;}
-    #home .col-md-offset-1{margin-left:25vw;} .col-md-3 img, .wow h4{margin-left:25vw;} .navbar{padding-right: 10vw;width:100%;}.row h1, .row h3, #about{margin-left: 10vw;}
+    #home .col-md-offset-1{margin-left:0%;} .col-md-3 img, .wow h4{margin-left:0vw;} .navbar{padding-right: 10vw;width:100%;}.row h1, .row h3, #about{margin-left: 0%;}
 #about{height:120vh;margin-top:80vh; margin-bottom:50vh;}
 #buy{height:280vh;margin-top:50vh;margin-bottom:80vh;}
     #contact{margin-top:50vh;} .col-md-4{margin-top:20vh;} #contact .section-title{margin-top:10vh;}
+	#imageadjust {margin-left: 17%;}
+	.preloader {
+		left:-8%}
+	
 }
 @media (max-width:980px){h1{font-size:30px;line-height:normal;}
 h2{font-size:30px;}
@@ -134,4 +140,12 @@ h2{font-size:30px;}
     #about .col-md-4 a{width:85px;height:85px;} #home{height:100vh;margin-top:110vh;}
 #about{height:120vh;margin-top:80vh; margin-bottom:50vh;}
 #buy{height:280vh;margin-top:50vh;margin-bottom:50vh;}
- #home{margin-left:20%;} .col-md-12 h2{margin-top:30vh;} #contact .section-title{margin-top:50vh;}.col-sm-12{margin-top:30vh; margin-bottom:10vh;} #contact{height:150vh;} #webdesign{margin-top:30vh;} #prints{margin-bottom:20vh;}
+ #home{margin-left:0%;} .col-md-12 h2{margin-top:30vh;} #contact .section-title{margin-top:50vh;}.col-sm-12{margin-top:30vh; margin-bottom:10vh;} #contact{height:150vh;} #webdesign{margin-top:30vh;} #prints{margin-bottom:20vh;}
+.preloader {
+		left:-7%
+	}}
+
+#logo img {
+		width: 400px; 
+		height: 200px; 
+	}
